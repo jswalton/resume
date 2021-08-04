@@ -1,0 +1,192 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Joshua Walton} & Email : jswalton.dev@gmail.com\\
+  http://www.jwalton.me & Mobile : +1-843-323-2485 \\
+\end{tabular*}
+
+%----------SUMMARY-----------------
+\section{Summary}
+  \textbf{\normalfont Full stack software developer with experience in Java Enterprise technologies,  Scala,  Play Framework,  AngularJS, Angular,  ReactJS,  Amazon Web Services,  and mobile.  Worked on large enterprise projects and small consumer product projects.  Strong communication skills and a desire to engage with fellow team members to collaborate and learn more.  Pursuing full stack development or solutions architect employment opportunities .}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {College of Charleston}{Charleston, SC}
+      {Bachelor of Science in Computer Science}{Aug. 2007 -- Dec. 2011}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+      \resumeSubheading
+      {Booz Allen Hamilton}{San Diego, CA}
+      {Lead Engineer - Sr. Software Engineer}{Jan 2018 - Present}
+
+      \textbf{\normalfont Lead software developer on various projects within the Navy \& Marine Corps space. Focused on web application development,  modernization, and cloud migration efforts.}
+
+      \resumeItemListStart
+        \resumeItem{Navy Flight Weather Briefer 2.0}
+          {Successfully lead a development team in an effort to modernize U.S.  Navy's Flight Weather Briefer, and migrate the web application to AWS GovCloud.  Developed FWB 2.0 with Java EE,  PostgreSQL,  Angular.  Advised client regularly on AWS cloud best practices. Designed and implemented infrastructure in AWS GovCloud with a low operations overhead in mind. Quickly Designed and implemented a "serverless" notification framework for application notifications.  Worked with DevOps team members to establish CI/CD pipeline which would meet the Navy's standards for software delivery and approval, and meet the project's needs as an "agile" project.}
+
+        \resumeItem{APMT (Internal)}
+          {Successfully lead an effort to modernize APMT's code base. Moved from traditional Java MVC web application to a React.js Single Page App powered by data from a RESTful API built with Spring Data Rest, and PostgreSQL.  Helped the team with a deployment to an AWS EC2 instance on company internal AWS account. }
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Dispute Resolution Data}{Charleston, SC}
+      {Software Developer}{Jul 2016 - Oct 2020}
+
+
+
+      \textbf{\normalfont  Lead software developer for DRD.  DRD provides arbitration and mediation institutions the ability to input case data while providing data visualization and tools to data researchers through a SaaS application.}
+
+      \resumeItemListStart
+        \resumeItem{AngularJS SPA}
+          {Collaborated in the development of a client facing AngularJS application. Data visualization tools developed using hand rolled "widget" library.}
+        \resumeItem{Play Framework/Scala API}
+          {Developed RESTful API using Scala and Play Framework. }
+        \resumeItem{AWS Infrastructure}
+          {Deploying and Maintaining application code through Docker containers deployed on AWS ElasticBeanstalk, RDS, S3, SES, Lambda, and Elastic Beanstalk.}
+        \resumeItem{NationBuilder Integration}
+          {Exposed a client API for accepting pushed changes/ notifications. Integrate with third party RESTful APIs in order to push new user information.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {SPARC, LLC}{Charleston, SC}
+      {Software Developer}{Dec 2011 - Jul 2016}
+
+
+
+      \textbf{\normalfont I was responsible for the iterative development of new functionality as well as maintenance of existing pieces of VBMS(Veterans Benefits Management System). I was also on the V1 phase of development for Dispute Resolution Data which successfully reached production deliveries on time.}
+
+      \resumeItemListStart
+        \resumeItem{AWS Infrastructure}
+          {Prototyped and developed AWS Infrastructure for Dispute Resolution Data. Leveraged ElasticBeanstalk, RDS, Lambda, and SES. I was responsible for ongoing development and maintenance.}
+        \resumeItem{Play Framework/Scala REST API}
+          {Developed a RESTful API service for consumption by Dispute Resolution Data UI clients.}
+        \resumeItem{AnuglarJS Client}
+          {Developed AngularJS UI Client for Dispute Resolution Data. Successfully created a UI Client which included data visualization based on a custom "widget" library.}
+        \resumeItem{SOAP and REST Web Services}
+          {Developed API RESTful Web Services for consumption by VBMS JQuery front-end. Maintained and developed external SOAP web service interactions.}
+        \resumeItem{Letter Correspondence}
+          {Integrated external legacy SOAP web services for VBMS into letter correspondence framework. Tools such as SoapUI and JMockit were used in order to test and develop code to a successful deployment.}
+        \resumeItem{Spring Framework}
+          {Worked to configure new modules, maintain code, and create new features within spring framework for VBMS.}
+        \resumeItem{PDF Preview Functionality}
+          {Developed Servlet to serve byte range requests for PDF documents, enabling PDF Preview functionality to work within VBMS.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {SPARC, LLC}{Charleston, SC}
+      {Intern}{Mar 2011 - Dec 2011}
+      \resumeItemListStart
+        \resumeItem{Android Development}
+          {Developed an Android application to check in office visitors using third-party libraries for facial recognition}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------certs-----------------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{AWS Certified Solutions Architect}{}
+    \resumeSubItem{CompTIA Security+}{}
+  \resumeSubHeadingListEnd
+
+
+%-----------Languages-----------------
+\section{Languages}
+  \resumeSubHeadingListStart
+    \resumeSubItem{English}
+      {Native Language}
+    \resumeSubItem{Spanish}
+      {Working Proficiency}
+  \resumeSubHeadingListEnd
+
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
