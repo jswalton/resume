@@ -2,3 +2,7 @@
 Archieve/
 *.synctex.gz
 .DS_Store
+*.log
+*.aux
+*.out
+
