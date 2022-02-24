@@ -53,6 +53,13 @@
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
+
+\newcommand{\certItem}[1]{
+  \item\small{
+    \textbf{#1}\vspace{-4pt}
+  }
+}
+
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
@@ -74,7 +81,7 @@
 
 %----------SUMMARY-----------------
 \section{Summary}
-  \textbf{\normalfont Full stack software developer with experience in Java Enterprise technologies,  Scala,  Play Framework,  AngularJS, Angular,  ReactJS,  Amazon Web Services,  and mobile.  Worked on large enterprise projects and small consumer product projects.  Strong communication skills and a desire to engage with fellow team members to collaborate and learn more.  Pursuing full stack development or solutions architect employment opportunities .}
+  \textbf{\normalfont Full stack software developer with extensive experience in web application development. Worked on large enterprise projects and small consumer product projects. Strong communication skills and a desire to engage with fellow team members to collaborate and learn more. Pursuing full stack development or solutions architect employment opportunities.}
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -93,14 +100,14 @@
       {Booz Allen Hamilton}{San Diego, CA}
       {Lead Engineer - Sr. Software Engineer}{Jan 2018 - Present}
 
-      \textbf{\normalfont Lead software developer on various projects within the Navy \& Marine Corps space. Focused on web application development,  modernization, and cloud migration efforts.}
+      \textbf{\normalfont Lead software developer on various projects within the Navy \& Marine Corps space. Focused on web application development, modernization, and cloud migration efforts.}
 
       \resumeItemListStart
         \resumeItem{Navy Flight Weather Briefer 2.0}
-          {Successfully lead a development team in an effort to modernize U.S.  Navy's Flight Weather Briefer, and migrate the web application to AWS GovCloud.  Developed FWB 2.0 with Java EE,  PostgreSQL,  Angular.  Advised client regularly on AWS cloud best practices. Designed and implemented infrastructure in AWS GovCloud with a low operations overhead in mind. Quickly Designed and implemented a "serverless" notification framework for application notifications.  Worked with DevOps team members to establish CI/CD pipeline which would meet the Navy's standards for software delivery and approval, and meet the project's needs as an "agile" project.}
+          {Successfully lead a development team in an effort to modernize U.S. Navy's Flight Weather Briefer, and migrate the web application to AWS GovCloud. Developed FWB 2.0 with Java EE, PostgreSQL, Angular. Advised client regularly on AWS cloud best practices. Designed and implemented infrastructure in AWS GovCloud with a low operations overhead in mind. Quickly Designed and implemented a "serverless" notification framework for application notifications. Worked with DevOps team members to establish CI/CD pipeline which would meet the Navy's standards for software delivery and approval, and meet the project's needs as an "agile" project.}
 
         \resumeItem{APMT (Internal)}
-          {Successfully lead an effort to modernize APMT's code base. Moved from traditional Java MVC web application to a React.js Single Page App powered by data from a RESTful API built with Spring Data Rest, and PostgreSQL.  Helped the team with a deployment to an AWS EC2 instance on company internal AWS account. }
+          {Successfully lead an effort to modernize APMT's code base. Moved from traditional Java MVC web application to a React.js Single Page App powered by data from a RESTful API built with Spring Data Rest, and PostgreSQL. Helped the team with a deployment to an AWS EC2 instance on company internal AWS account. }
 
       \resumeItemListEnd
 
@@ -110,13 +117,13 @@
 
 
 
-      \textbf{\normalfont  Lead software developer for DRD.  DRD provides arbitration and mediation institutions the ability to input case data while providing data visualization and tools to data researchers through a SaaS application.}
+      \textbf{\normalfont Lead software developer for DRD. DRD provides arbitration and mediation institutions the ability to input case data while providing data visualization and tools to data researchers through a SaaS application.}
 
       \resumeItemListStart
-        \resumeItem{AngularJS SPA}
-          {Collaborated in the development of a client facing AngularJS application. Data visualization tools developed using hand rolled "widget" library.}
         \resumeItem{Play Framework/Scala API}
-          {Developed RESTful API using Scala and Play Framework. }
+          {Developed an API service for consumption by Dispute Resolution Data UI clients.}
+        \resumeItem{AngularJS SPA}
+          {Collaborated in the development and maintenance of a client facing AngularJS application. Data visualization tools developed using hand rolled "widget" library.}
         \resumeItem{AWS Infrastructure}
           {Deploying and Maintaining application code through Docker containers deployed on AWS ElasticBeanstalk, RDS, S3, SES, Lambda, and Elastic Beanstalk.}
         \resumeItem{NationBuilder Integration}
@@ -127,17 +134,11 @@
       {SPARC, LLC}{Charleston, SC}
       {Software Developer}{Dec 2011 - Jul 2016}
 
-
-
       \textbf{\normalfont I was responsible for the iterative development of new functionality as well as maintenance of existing pieces of VBMS(Veterans Benefits Management System). I was also on the V1 phase of development for Dispute Resolution Data which successfully reached production deliveries on time.}
 
       \resumeItemListStart
         \resumeItem{AWS Infrastructure}
-          {Prototyped and developed AWS Infrastructure for Dispute Resolution Data. Leveraged ElasticBeanstalk, RDS, Lambda, and SES. I was responsible for ongoing development and maintenance.}
-        \resumeItem{Play Framework/Scala REST API}
-          {Developed a RESTful API service for consumption by Dispute Resolution Data UI clients.}
-        \resumeItem{AnuglarJS Client}
-          {Developed AngularJS UI Client for Dispute Resolution Data. Successfully created a UI Client which included data visualization based on a custom "widget" library.}
+          {Prototyped and developed AWS Infrastructure for Dispute Resolution Data.}
         \resumeItem{SOAP and REST Web Services}
           {Developed API RESTful Web Services for consumption by VBMS JQuery front-end. Maintained and developed external SOAP web service interactions.}
         \resumeItem{Letter Correspondence}
@@ -161,8 +162,8 @@
 %-----------certs-----------------
 \section{Certifications}
   \resumeSubHeadingListStart
-    \resumeSubItem{AWS Certified Solutions Architect}{}
-    \resumeSubItem{CompTIA Security+}{}
+    \certItem{AWS Certified Solutions Architect}{}
+    \certItem{CompTIA Security+}{}
   \resumeSubHeadingListEnd
 
 
